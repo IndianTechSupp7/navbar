@@ -11,7 +11,7 @@ import GridPage from "./pages/GridPage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/navbar">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
